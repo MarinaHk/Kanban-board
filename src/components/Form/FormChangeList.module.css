@@ -1,0 +1,42 @@
+.form {
+  font-style: normal;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: left;
+  border-radius: 5px;
+}
+
+.selection {
+  background-color: #fff;
+  margin: 8px 12px;
+  padding: 7px 8px;
+  border: #fff;
+  border-radius: 5px;
+  width: 91%;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.selection option {
+  border-radius: 5px;
+}
+
+.selection:active,
+.selection:hover,
+.selection:focus {
+  border: white;
+  outline: none;
+}
+
+.submit_btn {
+  background-color: #0079BF;
+  font-size: 18px;
+  font-family: 'Roboto';
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #fff;
+  margin: 5px;
+}
+

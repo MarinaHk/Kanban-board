@@ -1,0 +1,109 @@
+.list {
+  background-color: #EBECF0;
+  padding: 12px;
+  margin: 15px;
+  border-radius: 10px;
+  max-height: 538px;
+  height: fit-content;
+}
+
+.list p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: left;
+}
+
+.title {
+  margin: 12px;
+  margin-top: 0;
+	font-style: normal;
+	font-weight: normal;
+}
+
+.tasks {
+  display: block;
+  overflow-y: auto;
+  max-height: 500px;
+}
+
+.tasks_item {
+  background-color: #FFFFFF;
+  margin: 8px 12px;
+  padding: 7px 8px;
+  border-radius: 5px;
+}
+
+.btnBlock {
+  margin: 20px 12px 12px 12px;
+  text-align: left;
+}
+
+.add_card_button {
+  background: none;
+  border: none;
+  appearance: none;
+  color: #000;
+  color: #5E6C84;
+  text-align: left;
+  font-size: 18px;
+  font-family: 'Roboto';
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.add_card_button:hover {
+  color: #000;
+  cursor: pointer;
+  background-color: white;
+}
+
+.add_card_button_disabled {
+  background: none;
+  border: none;
+  appearance: none;
+  color: #465571;
+  text-align: left;
+  font-size: 18px;
+  font-family: 'Roboto';
+  padding: 5px;
+  border-radius: 5px;
+  text-decoration: line-through;
+}
+
+.task_link {
+  text-decoration: none;
+  color: #000;
+}
+
+.task_link:hover {
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 500px) {
+  .list {
+    width: 80%;
+    padding: 2px;
+    margin: 20px 15px;
+    border-radius: 10px;
+  }
+
+  .list p {
+    font-size: 18px;
+    line-height: 21px;
+  }
+
+  .add_card_button {
+    font-size: 18px;
+    padding: 5px;
+  }
+
+  .add_card_button_disabled {
+    font-size: 18px;
+  }
+
+  .btnBlock {
+    margin: 20px 8px 8px 8px;
+  }
+}

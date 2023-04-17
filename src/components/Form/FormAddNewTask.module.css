@@ -1,0 +1,44 @@
+.fromWrapper {
+  margin-top: 15px;
+	display: flex;
+	flex-direction: column;
+
+}
+
+.form {
+  background-color: white;
+  margin: 8px 12px;
+  padding: 7px 8px;
+  border-radius: 5px;
+}
+
+.form input {
+  height: 100%;
+  width: 100%;
+  border: none;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: left;
+  outline: none;
+  border-bottom: 1px solid black;
+}
+.form input:focus {
+  border-bottom: none;
+}
+
+.submit {
+	background: #0079BF;
+	color: #fff;
+	border: none;
+	border-radius: 8px;
+	padding: 8px 0;
+	width: 80px;
+	cursor: pointer;
+}
+
+.btnBlock {
+  margin: 20px 12px 12px 12px;
+  text-align: left;
+}
